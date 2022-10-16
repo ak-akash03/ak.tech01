@@ -97,7 +97,7 @@ a:hover{
 
 }
 .aaa{
-    border: 2px solid black;
+    border: 2px solid rgb(129, 100, 209);
     border-radius: 3px;
     padding: 3px;
     margin-top: 20px;
@@ -112,4 +112,18 @@ a:hover{
 
 h2{
     color: rgb(112, 76, 209);
+}
+
+
+
+
+.container .navbar .container-fluid .navbar-brand{
+    font-size: 1.7rem;
+}
+.container .navbar .container-fluid a{
+    font-size: 1.4rem;
+}
+.container .navbar .container-fluid .btn{
+    display: inline-block;
+    font-size: 1.7rem;
 }
