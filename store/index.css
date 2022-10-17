@@ -1,0 +1,129 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+html{
+    font-size: 10px;
+}
+.mainbody{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+    /* background-color: red; */
+}
+.mcontainer{
+    height: auto;
+    width: 95%;
+    margin: auto;
+}
+.img-box{
+    background-color: rgb(255, 255, 255);
+    height: 260px;
+    width: 40%;
+    display: inline-block;
+    float: left;
+    padding: 10px;
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
+    border-left: 1px solid grey;
+    /* border-radius: 10px; */
+    border-radius: 5px;
+}
+.text-box{
+    background-color: rgb(233, 233, 233);
+    /* background-color: rgb(255, 255, 255); */
+    height: 260px;
+    width: 60%;
+    display: inline-block;
+    float: right;
+    border-top: 1px solid grey;
+    border-right: 1px solid grey;
+    border-bottom: 1px solid grey;
+    padding: 10px;
+    border-radius: 5px;
+}
+@media (max-width: 500px){
+    .img-box{
+        width: 100%;
+        float: left;
+        border-bottom: none;
+    }
+    .text-box{
+        width: 100%;
+        float: right;
+        border-bottom: none;
+    }
+}
+.row .img-box img{
+    height: 100%;
+    width: auto;
+    padding-left: 10px;
+    box-shadow: 12px;
+}
+.row2 .img-box img{
+    height: 100%;
+    width: auto;
+    padding-left: 10px;
+    box-shadow: 12px;
+}
+.row,.row2{
+    margin-top: 20px;
+}
+.con{
+    margin-bottom: 10px;
+}
+
+.p{
+    margin-top: 10px;
+}
+/* .mbtn{
+    margin-top: 20px;
+    
+
+}
+.mbtn a{
+    text-decoration: none;
+    color: black;
+    margin: 10px;
+} */
+
+
+
+
+a:hover{
+    /* background-color: rgb(97, 188, 241); */
+    color: rgb(4, 0, 253);
+    padding: 5px;
+
+}
+.aaa{
+    border: 2px solid rgb(129, 100, 209);
+    border-radius: 3px;
+    padding: 3px;
+    margin-top: 20px;
+    color: black;
+    text-decoration: none;
+    background-color: rgb(255, 255, 255);
+}
+.aaa:hover{
+    background-color: rgb(129, 100, 209);
+    color: white;
+}
+
+h2{
+    color: rgb(112, 76, 209);
+}
+
+
+
+
+.container .navbar .container-fluid .navbar-brand{
+    font-size: 1.7rem;
+}
+.container .navbar .container-fluid a{
+    font-size: 1.4rem;
+}
+.container .navbar .container-fluid .btn{
+    display: inline-block;
+    font-size: 1.7rem;
+}
