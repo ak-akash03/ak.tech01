@@ -2,8 +2,26 @@ a{
     display: block;
     color: black;
 }
-
 .container .card .card-footer .btn a{
     text-decoration: none;
     color: white;
+}
+.container .logo .fst{
+    margin-left: 45%;
+}
+@media (max-width:430px){
+    .container .logo .fst{
+        margin-left: 35%;
+    }
+}
+
+
+.footerf .container .row a{
+    text-decoration: none;
+    color: rgb(36, 124, 255);
+}
+.footerf .container .row a:hover{
+    color: rgb(0, 255, 0);
+    /* border: 1px solid rgb(0, 255, 0); */
+
 }
