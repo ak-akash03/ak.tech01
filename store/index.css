@@ -26,12 +26,12 @@ html{
     border-top: 1px solid grey;
     border-bottom: 1px solid grey;
     border-left: 1px solid grey;
-    /* border-radius: 10px; */
+    border-radius: 10px;
     border-radius: 5px;
 }
 .text-box{
     background-color: rgb(233, 233, 233);
-    /* background-color: rgb(255, 255, 255); */
+    background-color: rgb(255, 255, 255);
     height: 260px;
     width: 60%;
     display: inline-block;
@@ -47,10 +47,14 @@ html{
         width: 100%;
         float: left;
         border-bottom: none;
+        border: none;
+        background-color: white;
     }
     .text-box{
         width: 100%;
         float: right;
+        border: none;
+        background-color: white;
         border-bottom: none;
     }
 }
@@ -126,4 +130,9 @@ h2{
 .container .navbar .container-fluid .btn{
     display: inline-block;
     font-size: 1.7rem;
+}
+
+.container .rounded-3 ul{
+    font-size: 16px;
+
 }
