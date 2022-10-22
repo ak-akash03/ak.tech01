@@ -57,6 +57,10 @@ html{
         background-color: white;
         border-bottom: none;
     }
+    .navx{
+        width: 98%;
+        color: white;
+    }
 }
 .row .img-box img{
     height: 100%;
@@ -135,4 +139,16 @@ h2{
 .container .rounded-3 ul{
     font-size: 16px;
 
+}
+.ullll li{
+    color: white;
+}
+.mmcontainer{
+    width: 95%;
+}
+.monster{
+    /* background-color: yellow; */
+    width: 95%;
+    height: auto;
+    margin: auto;
 }
